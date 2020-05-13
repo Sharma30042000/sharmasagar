@@ -1,0 +1,279 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 
+<script src="https://kit.fontawesome.com/d2a6749e62.js" crossorigin="anonymous"></script>
+<style type="text/css">
+* {
+    box-sizing:border-box; 
+         
+	}
+
+body {
+		 display:flex;
+		 flex-direction:column;
+		 margin:0;
+		 }
+#hd   { 
+         background-color:#566c2b;
+		 display:flex;
+		 align-items:center; 
+		 flex-wrap:wrap;
+		 flex-grow:1;
+		 padding:10px 0;
+		
+		  }
+#icon ul   { 
+           display:flex;
+		   list-style:none;
+		   
+		   }
+#icon li   { 
+           padding:10px;
+		   
+		   }
+a{
+color:white;
+text-decoration:none;
+}
+#menu ul  { 
+           display:flex;
+		   list-style:none;
+		   padding:0;
+		   
+		  
+		   }
+#menu li { 
+           padding:10px;
+		   
+		   }
+#logo{
+      margin:0 auto;
+	  font-weight:bold;
+	  font-size:30px;
+      }
+#main  {
+           display:flex;
+		   }
+.art    { 
+          padding:10px;
+		 
+		  }
+
+.asid  {
+         flex:0 0 20vw;
+		  background-color:#edfc9f;
+		  padding: 10px;
+		  }
+.asid ul   {
+             padding:0;
+			 list-style:none;
+	
+			 }
+.asid ul  a {
+             color:#566c2b;
+		      display:block;
+			  padding:10px;
+			  text-align:center;
+	
+			 }
+.asid ul  li {
+             border-bottom:1px solid #566c2b;
+	}
+	
+.asid img{
+           width:100%;
+	       align-items:stretch;
+	
+		   
+		   }			 
+
+.srvs {
+        
+		display:flex;
+		justify-content:space-between;
+		
+
+		}
+.c1    {
+        border:1px solid lightgray;
+		padding:10px;
+		max-width:400px;
+	   
+		flex-direction:column;
+
+		
+	
+		
+	
+         }
+.c1 img {
+         width:100%;
+		 height:150px;
+		 
+		 
+		 
+		 }
+.ft     { 
+          color:white;
+          background-color:#566c2b;
+          padding:10px;
+          text-align:center;		  
+			   
+	      }
+.rdm     { 
+             align-self:flex-start;
+			 margin-top:auto;
+			 }
+.rdm  a  { 
+          
+
+		   margin-top:10px;
+           text-decoration:none;
+		   color:black;
+		   background-color:lightgray;
+		   border:1px solid gray;
+		   padding:3px;
+		   transition:font-size 0.3s;
+		   }
+.rdm  a:hover {
+                background-color:#566c2b;
+				color:white;
+				border:1px solid black;
+				
+				font-size:18px;
+				
+				}
+.descrp { 
+          
+		  margin-bottom:10px;
+		 
+
+}
+@media screen and (max-width:828px)
+{
+.asid  {
+          flex:0 0 30vw;
+		  }
+ }
+</style>
+
+</head>
+<body>
+<header id="hd">
+<nav id="menu">
+<ul>
+<li><a href="">HOME</a></li>
+<li><a href="">ABOUT US</a></li>
+<li><a href="">CONTECT US</a></li>
+</ul>
+</nav>
+<div id="logo">
+<a href="">sagar sharma</a>
+</div>
+<nav id="icon">
+<ul>
+<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+<li><a href=""> <i class="fab fa-twitter-square"></i></a></li>
+<li><a href=""><i class="fab fa-google-plus"></i></a></li>
+</ul>
+</nav>
+</header>
+<div id="main">
+<aside class="asid">
+<ul>
+<li><a href="" >link</a></li>
+<li><a href="">link</a></li>
+<li><a href="">link</a></li>
+<li><a href="">link</a></li>
+</ul>
+<div>
+<img src="put.jpg" style="height:300px;">
+</div>
+
+</aside>
+<article class="art">
+<h2>welcom to sharma's website</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<h2>our servise</h2>
+
+
+<div class="srvs">
+<div class="c1">
+<img src="wdsn.jpg">
+<div>
+<h3>web desaigning</h3>
+</div>
+<div class="descr">
+Lorem Ipsum is simply dummy text of the printing and typesetting,,Lorem Ipsum is simply dummy text of the printing and typesetting
+</div>
+<div class="rdm">
+<a href=""> Read more</a>
+</div>
+</div>
+
+
+
+<div class="c1">
+<img src="wd.jpg">
+<div>
+<h3>web devlopment</h3>
+</div>
+<div class="descr">
+Lorem Ipsum is simply dummy text of the printing and typesetting
+</div>
+<div class="rdm">
+<a href=""> Read more</a>
+</div>
+</div>
+
+
+
+<div class="c1">
+<img src="apd.jpg">
+<div>
+<h3>mobile app devlopment</h3>
+</div>
+<div class="descr">
+Lorem Ipsum is simply dummy text of the printing and typesetting
+</div>
+<div class="rdm">
+<a href=""> Read more</a>
+</div>
+</div>
+
+</div>
+
+
+</article>
+</div>
+<footer class="ft">
+
+<h3>Made by  &nbsp SAGAR SHARMA</h3>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
