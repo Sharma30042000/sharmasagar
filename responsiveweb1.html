@@ -20,8 +20,9 @@ body {
 		 display:flex;
 		 align-items:center; 
 		 flex-wrap:wrap;
+		
 		 flex-grow:1;
-		 padding:10px 0;
+		 padding:0px 0;
 		
 		  }
 #icon ul   { 
@@ -30,7 +31,7 @@ body {
 		   
 		   }
 #icon li   { 
-           padding:10px;
+           padding-right:10px;
 		   
 		   }
 a{
@@ -55,6 +56,7 @@ text-decoration:none;
       }
 #main  {
            display:flex;
+		   
 		   }
 .art    { 
           padding:10px;
@@ -93,27 +95,20 @@ text-decoration:none;
         
 		display:flex;
 		justify-content:space-between;
+		flex-wrap:wrap;
 		
 
 		}
 .c1    {
+        display:flex;
+		flex-direction:column;
         border:1px solid lightgray;
 		padding:10px;
 		max-width:400px;
-	   
-		flex-direction:column;
-
-		
-	
-		
-	
+		flex-basis:32%;
          }
 .c1 img {
          width:100%;
-		 height:150px;
-		 
-		 
-		 
 		 }
 .ft     { 
           color:white;
@@ -124,12 +119,12 @@ text-decoration:none;
 	      }
 .rdm     { 
              align-self:flex-start;
-			 margin-top:auto;
+			margin-top:auto;
 			 }
 .rdm  a  { 
           
-
-		   margin-top:10px;
+           
+		
            text-decoration:none;
 		   color:black;
 		   background-color:lightgray;
@@ -145,18 +140,50 @@ text-decoration:none;
 				font-size:18px;
 				
 				}
-.descrp { 
-          
-		  margin-bottom:10px;
-		 
-
+.descr { padding-bottom:20px; 
+         
 }
-@media screen and (max-width:828px)
+@media screen and (max-width:920px)
 {
 .asid  {
           flex:0 0 30vw;
 		  }
+.c1 {
+          flex-basis:50%;
+		  
+		  }
  }
+ @media screen and (max-width:760px)
+{
+ #hd {
+          flex-direction:column;
+		  justify-content:center;
+		  
+		  }
+#logo {
+            order:-1;
+			}
+ }
+ @media screen and (max-width:488px)
+{
+#main {
+         flex-direction:column-reverse;    
+			  
+	     }
+ }
+ @media screen and (max-width:488px)
+{
+.srvs {
+         flex-direction:column;
+         flex-grow:1;		 
+			  
+	     }
+
+
+
+ }
+ 
+ 
 </style>
 
 </head>
@@ -195,7 +222,7 @@ text-decoration:none;
 </aside>
 <article class="art">
 <h2>welcom to sharma's website</h2>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 <h2>our servise</h2>
 
 
@@ -206,9 +233,9 @@ text-decoration:none;
 <h3>web desaigning</h3>
 </div>
 <div class="descr">
-Lorem Ipsum is simply dummy text of the printing and typesetting,,Lorem Ipsum is simply dummy text of the printing and typesetting
+Lorem Ipsum is simply dummy text of the printing and typesetting
 </div>
-<div class="rdm">
+<div class="rdm" >
 <a href=""> Read more</a>
 </div>
 </div>
@@ -221,7 +248,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting,,Lorem Ipsum is
 <h3>web devlopment</h3>
 </div>
 <div class="descr">
-Lorem Ipsum is simply dummy text of the printing and typesetting
+ Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
 </div>
 <div class="rdm">
 <a href=""> Read more</a>
@@ -231,7 +258,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting
 
 
 <div class="c1">
-<img src="apd.jpg">
+<img src="appdv.jpg">
 <div>
 <h3>mobile app devlopment</h3>
 </div>
